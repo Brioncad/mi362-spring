@@ -1,9 +1,15 @@
-const http = require('http');
+var http = require('http'),
+  fs = require('fs');
 
-http.createServer( (request, response) => {
-  response.writeHead(200, {'Content-Type': 'text/html'});
-  response.write(<h1>'Hello World'</h1>);
-  response.end(<p>'This is a nose app!'</p>);
-}).listen(8124);
+fs.readFile('./index2.html', function (err,html){
+  if (err) {
+    throw err;
+  }
+  http.createServer(function (request, response) {
+    response.writeHeader(200, {'Content-Type': 'text/html'});
+    response.write(html);
+    response.end();
+  }).listen(8124);
 
+});
 console.log('Server running at http://127.0.0.1:8124/');
