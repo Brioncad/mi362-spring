@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shop</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="shop.html">Shop</a></li>
+   <li><a href="blog.html">Blog</a></li>
+   <li><a href="about.html">About Me</a></li>
+   <li><a href="contact.html">Contact Us</a></li>
+</ul> 
+<body>
+<div style="margin-left:15%;padding:1px 16px;height:1000px;">
+<h1><img src="logobee700.png" alt="logo"></h1>
+<div class="img">
+  <a target="_blank" href="Flower.jpg">
+  <img onmouseover="rolloverimage(this)" onmouseout="startimage(this)" border="0" src="flower.jpg" alt="flower">
+  </a>
+  <div class="desc">$10 Custom multi-purpose mason jar. All orders are custom and avaliable upon request.</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="bridal.jpg">
+    <img src="bridal.JPG" alt="Bridal" width="300" height="200">
+  </a>
+  <div class="desc">$50 Custom bridal shower centerpieces. All orders are custom and avaliable upon request.</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="splash.png">
+    <img src="splash.png" alt="Splash" width="300" height="200">
+  </a>
+  <div class="desc">$25 Custom splash bathroom painting. All orders are custom and avaliable upon request.</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="stone.jpg">
+    <img src="stone.jpg" alt="Stone" width="300" height="200">
+  </a>
+  <div class="desc">$15 Custom multi-purpose mason jar. All orders are custom and avaliable upon request.</div>
+</div>
+<script>
+function startimage(x) {
+    //x.style.height = "64px";
+    //x.style.width = "64px";
+	x.src="flower.jpg";
+}
+
+function rolloverimage(x) {
+    //x.style.height = "32px";
+    //x.style.width = "32px";
+	x.src="flower1.jpg";
+}
+
+</script>
+</div>
+</body>
+</html>

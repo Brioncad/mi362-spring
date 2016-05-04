@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+h2 {	
+	text-align: center;
+}
+
+
+h3 {
+	text-align:center;
+}
+
+h4 {
+	text-align:center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #FFF;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #ADB51F;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #ADB51F;
+}
+
+div.img {
+     margin: 5px;
+    border: 1px solid #ccc;
+     float: left;
+     width: 180px;
+}
+
+div.img:hover {
+     border: 1px solid #777;
+}
+
+div.img img {
+     width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+     text-align: center;
+}
+
+.img1 {
+    float: right;
+}
+
+.row.content {height: 1500px}
+
+form {
+	text-align:center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.bg-1 { 
+      background-color: #D18788; 
+      color: #ffffff;
+}
+  .bg-2 { 
+      background-color: #7C7C7C; 
+      color: #ffffff;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+	
+	
+	

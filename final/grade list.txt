@@ -1,0 +1,7 @@
+100 - Hosted on Heroku (Required)
+100 - Custom domain name (Required)
+100 - Instructor/discretionary (Required, looking for quality, originality, spelling/grammer, overall project polish) 
+300 - 4 complete HTML pages with content (Made wesite of 5 pages total- home, blog, shop, about me, contact us)
+200 - Custom CSS or Bootstrap for design (custom CSS to all pages)
+50- Use at least two custom images (Logo is custom as well as all other images)
+50 - Integrate a JavaScript component (image rollover using javascript on 1st image on shop page)
